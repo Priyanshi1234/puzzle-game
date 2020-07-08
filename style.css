@@ -12,6 +12,10 @@ body{
 
 }
 
+.inst{
+    color: #ffbd69;
+}
+
 .game{
     /*position: absolute;
     top: 50%;
@@ -27,15 +31,15 @@ body{
     display: grid;
     grid-template-columns: 100px 100px 100px 100px;
     grid-template-rows: 100px 100px 100px 100px ;
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
 .grid button{
-    background-color: #cfcfcf ;
-    color:blue;
+    background-color: #ffbd69 ;
+    color:#c70039;
     font-size: 30px;
     font-weight: bold;
-    border: 1px solid black;
+    border: 3px solid black;
     outline: none;
     cursor: pointer;
     transition: 0.2s ease-in;
@@ -43,9 +47,9 @@ body{
 }
 
 .grid button:hover{
-    background-color: pink ;
-    color:blue;
-    font-size: 50px;
+    background-color: #f37121;
+    color:#111d5e;
+    font-size: 40px;
     font-weight: bold;
     border: 1px solid black;
     outline: none;
@@ -66,29 +70,29 @@ body{
     box-shadow: 0px 1px 4px rgba(0,0,0,0.5);
     padding: 5px;
     width: 80px;
-    background-color: yellow;
-    color: royalblue;
+    background-color: #111d5e;
+    color: #f37121;
     outline: none;
     cursor: pointer;
 }
 
 .footer button:hover{
-    color: yellow;
-    background-color: blue;
+    color: #111d5e;
+    background-color: #f37121;
 }
 
 .footer span{
     flex:1;
     text-align: center;
-    font-size: 20px;
-    color: yellow;
+    font-size: 25px;
+    color: #111d5e;
     font-weight: bold;
     margin: 0 auto;
 }
 
 
 .message{
-    color:blue;
+    color: #f37121;
     height: 80px;
 
 }

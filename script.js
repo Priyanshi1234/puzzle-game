@@ -190,11 +190,11 @@ class Box {
       document.getElementById("time").textContent = `Time: ${time}`;
   
       // Render message
-     /* if (status === "won") {
+      if (status === "won") {
         document.querySelector(".message").textContent = "You win!";
       } else {
         document.querySelector(".message").textContent = "";
-      }*/
+      }
     }
   }
   
