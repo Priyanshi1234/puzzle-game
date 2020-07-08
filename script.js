@@ -191,7 +191,7 @@ class Box {
   
       // Render message
       if (status === "won") {
-        document.querySelector(".message").textContent = "You win!";
+        document.querySelector(".message").textContent = "CONGRATULATIONS!!! You have WON!!!";
       } else {
         document.querySelector(".message").textContent = "";
       }
