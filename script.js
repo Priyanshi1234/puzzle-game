@@ -189,8 +189,8 @@ class Box {
       document.getElementById("time").textContent = `Time: ${time}`;
   
       // Render message
-      if (status === "won") {
-        document.querySelector(".message").textContent = "CONGRATULATIONS!!! You have WON!!!  &#127881  &#10024";
+      if (status === "playing") {
+        document.querySelector(".message").textContent = "CONGRATULATIONS!!! You have WON!!!.";
       } else {
         document.querySelector(".message").textContent = "";
       }
