@@ -111,7 +111,6 @@ class Box {
       this.render();
       this.handleClickBox = this.handleClickBox.bind(this);
     }
-  
     static ready() {
       return new Game(State.ready());
     }
@@ -191,12 +190,15 @@ class Box {
   
       // Render message
       if (status === "won") {
-        document.querySelector(".message").textContent = "CONGRATULATIONS!!! You have WON!!!";
+        document.querySelector(".message").textContent = "CONGRATULATIONS!!! You have WON!!!  &#127881  &#10024";
       } else {
         document.querySelector(".message").textContent = "";
       }
     }
   }
+
   
+  
+
   const GAME = Game.ready();
-  
+

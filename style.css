@@ -1,5 +1,6 @@
 html{
     height: 100%;
+    
 }
 
 body{
@@ -9,8 +10,16 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-family: 'Lobster Two', cursive;
 
 }
+
+.head{
+    color:#c70039;
+    font-size: 80px;
+}
+
+
 
 .inst{
     color: #ffbd69;
@@ -54,6 +63,7 @@ body{
     border: 1px solid black;
     outline: none;
     cursor: pointer;
+    transform: rotate(10deg);
 }
 
 .footer{
@@ -96,3 +106,7 @@ body{
     height: 80px;
 
 }
+
+
+
+
