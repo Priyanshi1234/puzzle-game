@@ -57,6 +57,7 @@ body{
     outline: none;
     cursor: pointer;
     transition: 0.2s ease-in;
+    font-family: 'Rye', cursive;
     
 }
 
@@ -75,6 +76,7 @@ body{
     margin-top: 15px;
     display: flex;
     justify-content: space-between;
+    
 }
 
 .footer button{
@@ -89,6 +91,7 @@ body{
     color: #f37121;
     outline: none;
     cursor: pointer;
+    font-family: 'Rye', cursive;
 }
 
 .footer button:hover{
